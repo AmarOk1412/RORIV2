@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/">
+        <file>addtab.png</file>
+        <file>closetab.png</file>
+        <file>history.png</file>
+        <file>browser.svg</file>
+        <file>defaultbookmarks.xbel</file>
+        <file>loading.gif</file>
+        <file>defaulticon.png</file>
+        <file>close.png</file>
+        <file>improve.png</file>
+        <file>reduce.png</file>
+        <file>improve_maximized.png</file>
+        <file>reduce_hover.png</file>
+        <file>close_hover.png</file>
+        <file>improve_hover.png</file>
+        <file>improve_maximized_hover.png</file>
+        <file>about.png</file>
+        <file>annuler.png</file>
+        <file>color.png</file>
+        <file>css.png</file>
+        <file>deselect.png</file>
+        <file>fav.png</file>
+        <file>favb.png</file>
+        <file>favf.png</file>
+        <file>file.png</file>
+        <file>image.png</file>
+        <file>close_border.png</file>
+        <file>improve.png</file>
+        <file>improve_border.png</file>
+        <file>improve_maximized.png</file>
+        <file>onivox_hover.png</file>
+        <file>parametres.png</file>
+        <file>plus.png</file>
+        <file>prec.png</file>
+        <file>print.png</file>
+        <file>printb.png</file>
+        <file>reduce.png</file>
+        <file>reduce_border.png</file>
+        <file>reduce_hover.png</file>
+        <file alias="rafraichir">ref.png</file>
+        <file>retablir.png</file>
+        <file>save.png</file>
+        <file>saveas.png</file>
+        <file>saveb.png</file>
+        <file>sel.png</file>
+        <file>sidebar.png</file>
+        <file>suiv.png</file>
+        <file>turn.png</file>
+    </qresource>
+</RCC>

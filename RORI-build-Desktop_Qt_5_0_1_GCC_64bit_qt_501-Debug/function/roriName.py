@@ -1,0 +1,24 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random 
+
+mon_fichier = open("end", "w")
+
+r = random.randint(1,4) 
+toWrite = ""
+if r == 1 :
+	toWrite += "Say : Je suis R.O.R.I, créée par AmarOk1412, mon maître adoré."
+elif r == 2 :
+	toWrite += "Say : Il paraît que mon créateur m'as donné le nom de R.O.R.I, c'est peut être moche, mais moi j'aime bien. En français, on peut le traduire par Réellement Evident, Réellement Intelligent. Bon ok, c'est peut être encore ça..."
+elif r == 3 :
+	toWrite += "Say : Je suis RORI, c'est un beau nom n'est-ce pas ? Moi ça me rappelle Rori Guilmore, mais en fait ça veux dire Really Obvious, Really Intelligent."
+elif r == 4 :
+	toWrite += "Say : Je m'appelle comme ce programme l'indique : RORI"
+
+toWrite += "\n-R_M- : -10"
+toWrite += "\n-U_C- : -10"
+toWrite += "\n-U_BU- : -10"
+
+mon_fichier.write(toWrite)
+
+mon_fichier.close()

@@ -1,0 +1,2447 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="fr"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="fr"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="fr"> <![endif]-->
+<!--[if gt IE 7]> <html class="no-js ie oldie" lang="fr"> <![endif]-->
+<html class="no-js" lang="fr"> <!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="application-name" content="Site du Zéro"/>
+<meta name="msapplication-TileColor" content="#002D40"/>
+<meta name="msapplication-TileImage" content="/bundles/common/images/928bd40a-9507-4495-977d-ace7d554190b.png"/>
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<script type="text/javascript" src="/bundles/common/js/modernizr/modernizr.js?140"></script>
+<!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+<link href="/bundles/common/css/syntaxhl.css?140" type="text/css" rel="stylesheet" media="all"/>
+<link href="/bundles/common/css/jquery-ui.css?140" type="text/css" rel="stylesheet" media="all"/>
+<link href="/bundles/thread/css/main.css?140" type="text/css" rel="stylesheet" media="all"/>
+<link rel="shortcut icon" href="/favicon.ico?140"/>
+ 
+<script type="text/javascript">
+var crtg_nid="2170";
+var crtg_cookiename="cto_simpleit";
+var crtg_varname="crtg_content";
+function crtg_getCookie(c_name){ var i,x,y,ARRCookies=document.cookie.split(";");for(i=0;i<ARRCookies.length;i++){x=ARRCookies[i].substr(0,ARRCookies[i].indexOf("="));y=ARRCookies[i].substr(ARRCookies[i].indexOf("=")+1);x=x.replace(/^\s+|\s+$/g,"");if(x==c_name){return unescape(y);}}return'';}
+var crtg_content = crtg_getCookie(crtg_cookiename);var crtg_rnd=Math.floor(Math.random()*99999999999);
+var crtg_url=location.protocol+'//rtax.criteo.com/delivery/rta/rta.js?netId='+escape(crtg_nid);crtg_url+='&cookieName='+escape(crtg_cookiename);crtg_url+='&rnd='+crtg_rnd;crtg_url+='&varName=' + escape(crtg_varname);
+var crtg_script=document.createElement('script');crtg_script.type='text/javascript';crtg_script.src=crtg_url;crtg_script.async=true;
+if(document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(crtg_script);else if(document.getElementsByTagName("body").length>0)document.getElementsByTagName("body")[0].appendChild(crtg_script);
+</script> <script type='text/javascript'>
+  (function() {
+    var cx = '014616277910456467192:89xygm8tdzq';
+    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<title>Électronique</title>
+<script type="text/javascript">
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+                })();
+        </script>
+<script type="text/javascript">
+            googletag.cmd.push(function() {
+                var separatorLabel = '&';
+var separatorKeyword = '=';
+var crtg_split = crtg_content.split(separatorLabel);
+for (var i=1;i<crtg_split.length;i++)
+{
+    googletag.pubads().setTargeting ("" + (crtg_split[i-1].split(separatorKeyword))[0] + "", "" + (crtg_split[i-1].split(separatorKeyword))[1] + "");
+}                    if (window.innerWidth >= 728)
+    {
+        googletag.defineSlot('/1017495/megabann_forums_footer_728x90px', [728, 90], 'div-gpt-ad-1350977194635-4').addService(googletag.pubads());
+        googletag.defineSlot('/1017495/megabann_forums_header_728x90px', [728, 90], 'div-gpt-ad-1350977194635-5').addService(googletag.pubads());
+    }
+    else
+    {
+        googletag.defineSlot('/1017495/bann_mobile_forums_footer_320x50px', [320, 50], 'div-gpt-ad-1350977284180-4').addService(googletag.pubads());
+        googletag.defineSlot('/1017495/bann_mobile_forums_header_320x50px', [320, 50], 'div-gpt-ad-1350977284180-5').addService(googletag.pubads());
+    }
+
+
+                                                                    googletag.pubads().setTargeting("userType", "0");
+
+                                                                            googletag.pubads().setTargeting("category", "1");
+                
+                
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+        </script>
+</head>
+<body>
+<!--[if lt IE 9]>
+            <div style="width:300px;padding:10px;background-color:#FF9;text-align:center;position:fixed;right:0;z-index:100;">
+                <p>Vous utilisez une ancienne version d'Internet Explorer, veuillez vous <a href="http://www.microsoft.com/france/windows/internet-explorer/telecharger-ie9.aspx">mettre à jour</a>.</p>
+            </div>
+        <![endif]-->
+<header id="mainHeader">
+<section id="headerTop">
+<div id="headerTopBg"></div>
+<div id="mainMenu" class="containerSdz">
+<div id="beta"></div>
+<div id="menuUp">
+<div class="UpMob" role="banner">
+<a id="logo" href="/"></a>
+</div>
+<span class="sep"></span>
+<a href="/login" class="login">
+<div class="zozorLogin"></div>
+<div id="login">Rejoignez-nous</div>
+</a>
+</div>
+<div id="menuDown">
+<div class="contentDown">
+<nav class="down" role="navigation">
+<ul class="menu">
+<li class="sep"></li>
+<li class="tutorialLink ">
+<a href="/tutoriels">
+Tutoriels
+<span class="dropdownMenuTutorials"></span>
+</a>
+<ul>
+<li class="dropdownMenuTutorialsInfo">
+<a href="#">Informatique</a>
+<div>
+<div class="subMenuTutorial">
+<div>
+<a href="/informatique/2d/tutoriels">
+2D
+<span>(28)</span></a><a href="/informatique/tutoriels/debuter-sur-adobe-photoshop" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/actionscript/tutoriels">
+ActionScript
+<span>(17)</span></a><a href="/informatique/tutoriels/apprenez-a-programmer-en-actionscript-3" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/ada/tutoriels">
+Ada
+<span>(2)</span></a><a href="/informatique/tutoriels/apprendre-a-programmer-avec-ada" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/android/tutoriels">
+Android
+<span>(3)</span></a><a href="/informatique/tutoriels/creez-des-applications-pour-android" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/blackberry/tutoriels">
+BlackBerry
+<span>(1)</span></a><a href="/informatique/tutoriels/creez-des-applications-pour-blackberry" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/c/tutoriels">
+C
+<span>(42)</span></a><a href="/informatique/tutoriels/apprenez-a-programmer-en-c" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/c-2/tutoriels">
+C#
+<span>(16)</span></a><a href="/informatique/tutoriels/apprenez-a-developper-en-c" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/c-1/tutoriels">
+C++
+<span>(29)</span></a><a href="/informatique/tutoriels/programmez-avec-le-langage-c" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/cao/tutoriels">
+CAO
+<span>(2)</span></a><a href="/informatique/tutoriels/apprendre-a-dessiner-en-3d-avec-autocad" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/css/tutoriels">
+CSS
+<span>(35)</span></a><a href="/informatique/tutoriels/apprenez-a-creer-votre-site-web-avec-html5-et-css3" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/django/tutoriels">
+Django
+<span>(2)</span></a><a href="/informatique/tutoriels/developpez-votre-site-web-avec-le-framework-django" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/graphisme/tutoriels">
+Graphisme
+<span>(47)</span></a><a href="/informatique/tutoriels/debuter-sur-adobe-photoshop" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/hardware/tutoriels">
+Hardware
+<span>(15)</span></a><a href="/informatique/tutoriels/apprenez-a-monter-votre-ordinateur" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/html/tutoriels">
+HTML
+<span>(36)</span></a><a href="/informatique/tutoriels/apprenez-a-creer-votre-site-web-avec-html5-et-css3" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/ios/tutoriels">
+iOS
+<span>(3)</span></a><a href="/informatique/tutoriels/creez-des-applications-pour-iphone-ipad-et-ipod-touch" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/java/tutoriels">
+Java
+<span>(13)</span></a><a href="/informatique/tutoriels/apprenez-a-programmer-en-java" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/java-ee/tutoriels">
+Java EE
+<span>(2)</span></a><a href="/informatique/tutoriels/creez-votre-application-web-avec-java-ee" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/javascript/tutoriels">
+Javascript
+<span>(32)</span></a><a href="/informatique/tutoriels/dynamisez-vos-sites-web-avec-javascript" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/jquery/tutoriels">
+jQuery
+<span>(5)</span></a><a href="/informatique/tutoriels/simplifiez-vos-developpements-javascript-avec-jquery" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/latex/tutoriels">
+LaTeX
+<span>(4)</span></a><a href="/informatique/tutoriels/redigez-des-documents-de-qualite-avec-latex" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/linux/tutoriels">
+Linux
+<span>(49)</span></a><a href="/informatique/tutoriels/reprenez-le-controle-a-l-aide-de-linux" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/mac-os/tutoriels">
+Mac OS
+<span>(7)</span></a><a href="/informatique/tutoriels/domptez-votre-mac-avec-mac-os-x-mountain-lion" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/mysql/tutoriels">
+MySQL
+<span>(15)</span></a><a href="/informatique/tutoriels/administrez-vos-bases-de-donnees-avec-mysql" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/net/tutoriels">
+.Net
+<span>(14)</span></a><a href="/informatique/tutoriels/apprenez-a-developper-en-c" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/perl/tutoriels">
+Perl
+<span>(2)</span></a><a href="/informatique/tutoriels/apprenez-a-programmer-en-perl" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/photoshop/tutoriels">
+Photoshop
+<span>(12)</span></a><a href="/informatique/tutoriels/debuter-sur-adobe-photoshop" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/php/tutoriels">
+PHP
+<span>(107)</span></a><a href="/informatique/tutoriels/concevez-votre-site-web-avec-php-et-mysql" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/poo/tutoriels">
+POO
+<span>(4)</span></a><a href="/informatique/tutoriels/programmez-en-oriente-objet-en-php" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/python/tutoriels">
+Python
+<span>(18)</span></a><a href="/informatique/tutoriels/apprenez-a-programmer-en-python" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/reseaux/tutoriels">
+Réseaux
+<span>(14)</span></a><a href="/informatique/tutoriels/apprenez-le-fonctionnement-des-reseaux-tcp-ip" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/seo/tutoriels">
+SEO
+<span>(3)</span></a><a href="/informatique/tutoriels/ameliorez-la-visibilite-de-votre-site-sur-google" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/symfony/tutoriels">
+Symfony
+<span>(3)</span></a><a href="/informatique/tutoriels/developpez-votre-site-web-avec-le-framework-symfony2" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/unix/tutoriels">
+Unix
+<span>(1)</span></a><a href="/informatique/tutoriels/a-la-decouverte-d-unix-freebsd" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/vb-net/tutoriels">
+VB.Net
+<span>(1)</span></a><a href="/informatique/tutoriels/apprenez-a-programmer-en-vb-net" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/windows/tutoriels">
+Windows
+<span>(27)</span></a><a href="/informatique/tutoriels/debutez-en-informatique-avec-windows-8" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/windows-phone/tutoriels">
+Windows Phone
+<span>(2)</span></a><a href="/informatique/tutoriels/creez-des-applications-pour-windows-phone" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/word/tutoriels">
+Word
+<span>(4)</span></a><a href="/informatique/tutoriels/redigez-facilement-des-documents-avec-word" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/informatique/xml/tutoriels">
+XML
+<span>(9)</span></a><a href="/informatique/tutoriels/structurez-vos-donnees-avec-xml" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/informatique/tutoriels">Tous les tutoriels</a>
+</div>
+</div>
+</li>
+<li class="dropdownMenuTutorialsInfo">
+<a href="#">Sciences</a>
+<div>
+<div class="subMenuTutorial">
+<div>
+<a href="/sciences/chimie/tutoriels">
+Chimie
+<span>(2)</span></a><a href="/sciences/tutoriels/la-chimie-a-partir-de-zero" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/sciences/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/sciences/electronique/tutoriels">
+Électronique
+<span>(2)</span></a><a href="/sciences/tutoriels/arduino-pour-bien-commencer-en-electronique-et-en-programmation" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/sciences/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/sciences/mathematiques/tutoriels">
+Mathématiques
+<span>(13)</span></a><a href="/sciences/tutoriels/les-maths-pour-tous" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/sciences/tutoriels">Tous les tutoriels</a>
+<div>
+<a href="/sciences/physique/tutoriels">
+Physique
+<span>(6)</span></a><a href="/sciences/tutoriels/lumiere-sur-la-lumiere" class="tutoBeginner">
+</a>
+</div>
+<a class="btn-primary validation_button speedbar-button" href="/sciences/tutoriels">Tous les tutoriels</a>
+</div>
+</div>
+</li>
+<li class="dropdownMenuTutorialsInfo">
+<a>Entreprise</a>
+<div>
+<div class="subMenuTutorial">
+<div>
+<span class="zozor-redige"></span>
+<p>Vous souhaitez écrire des tutoriels pour la future section "Entreprise" ?
+<span>Contactez-nous à <a href="http://www.cloudflare.com/email-protection#fd98999489928f949c91bd8e948998998887988f92d39e9290"><span class="__cf_email__" data-cfemail="395c5d504d564b505855794a504d5c5d4c435c4b56175a5654">[email&nbsp;protected]</span><script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
+/* ]]> */
+</script></a></span>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li class="sep"></li>
+<li class="forumLink "><a href="/forum/">Forums</a></li>
+<li class="sep"></li>
+<li class="bookstoreLink"><a href="http://boutique.siteduzero.com/boutique.html">Librairie</a></li>
+<li class="sep"></li>
+<li class="schoolLink "><a href="/etudes/">&Eacute;tudes</a>
+</li>
+<li class="sep"></li>
+<li class="jobLink"><a href="/emploi">Emploi</a></li>
+<li class="sep"></li>
+</ul>
+<div id="navmenuRight">
+<form class="searchForm" action="/recherche/" method="get">
+<input type="submit" value="">
+<input type="search" placeholder="Recherche" name="q" value=""/>
+</form>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</section>
+<div style="clear: both;"></div>
+<section id="headerMiddle">
+<section class="containerSdz">
+<a href="/forum/"><div class="titlePicture forumSdz"></div></a>
+<h1> <a href="/forum/">Forums des <strong>Zéros</strong></a> </h1>
+<p>Une question ? Pas de panique, on va vous aider !</p>
+</section>
+</section>
+<section id="headerBreadcrumb">
+<section class="containerSdz">
+<ul id="breadcrumbtrail">
+<li class="home" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="/" itemprop="url">
+<span itemprop="title">Accueil</span>
+</a>
+<div class="breadcrumbArrow"></div>
+</li>
+<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="/forum/" itemprop="url">
+<span itemprop="title">Forum</span>
+</a>
+<div class="breadcrumbArrow"></div>
+</li>
+<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+<a href="/forum/categorie/sciences" itemprop="url">
+<span itemprop="title">Sciences</span>
+</a>
+<div class="breadcrumbArrow"></div>
+</li>
+<li class="current" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+Électronique
+</li>
+</ul>
+</section>
+</section>
+<div class="adBan">
+<script type='text/javascript'>
+    if (window.innerWidth >= 728)
+    {
+        document.write('<div id="div-gpt-ad-1350977194635-5" class="megaban"></div>');
+        googletag.cmd.push(function() {
+            var separatorLabel = '&';
+var separatorKeyword = '=';
+var crtg_split = crtg_content.split(separatorLabel);
+for (var i=1;i<crtg_split.length;i++)
+{
+    googletag.pubads().setTargeting ("" + (crtg_split[i-1].split(separatorKeyword))[0] + "", "" + (crtg_split[i-1].split(separatorKeyword))[1] + "");
+}            googletag.display('div-gpt-ad-1350977194635-5');
+        });
+    }
+            else
+        {
+            document.write('<div id="div-gpt-ad-1350977284180-5" class="miniban"></div>');
+            googletag.cmd.push(function() {
+                var separatorLabel = '&';
+var separatorKeyword = '=';
+var crtg_split = crtg_content.split(separatorLabel);
+for (var i=1;i<crtg_split.length;i++)
+{
+    googletag.pubads().setTargeting ("" + (crtg_split[i-1].split(separatorKeyword))[0] + "", "" + (crtg_split[i-1].split(separatorKeyword))[1] + "");
+}                googletag.display('div-gpt-ad-1350977284180-5');
+            });
+        }
+    </script>
+</div>
+<section id="headerBottom">
+<section class="containerSdz">
+<ul id="secondMenu" class="nav nav-tabs">
+<li><a href="/forum/">Liste des forums</a></li>
+</ul>
+</section>
+</section>
+<div class="headGradient">
+<div></div>
+<div></div>
+</div>
+</header>
+<div id="fixedNav">
+<a href="#">
+<span></span>
+</a>
+</div>
+<section id="mainContent" class='containerSdz' role="main">
+<section id="mainSection" class="container">
+<h1><a href="/forum/categorie/electronique">Électronique</a></h1>
+<ul class="list">
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<span class="postit"></span>
+<a href="/forum/sujet/les-meilleures-boutiques-d-electronique-90967">
+<h3>Les meilleures boutiques d&#039;électronique</h3>
+<span>Par
+<strong>
+listo
+</strong>
+Le 31 mai 2012 à 23:18:04
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>67 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/les-meilleures-boutiques-d-electronique-90967/84262937">
+Dernier message par
+<strong>
+tcit
+</strong>
+<br/>Le 21 avril 2013 à 9:59:09</a>
+</div>
+</div>
+</li>
+<li class="lock">
+<div class="row">
+<div class="cellsLink span5">
+<span class="lockSecure"></span> <span class="postit"></span>
+<a href="/forum/sujet/regles-du-forum-electronique">
+<h3>Règles du forum Électronique</h3>
+<span>Par
+<strong>
+Craw
+</strong>
+Le 10 janvier 2013 à 14:04:11
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>1 message</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/regles-du-forum-electronique/84005412">
+Dernier message par
+<strong>
+Craw
+</strong>
+<br/>Le 10 janvier 2013 à 14:04:11</a>
+</div>
+</div>
+</li>
+</ul>
+<section class="paginationContent">
+<div class="pagination">
+<span class="current">1</span>
+<a class="paginate page" href="/forum/categorie/electronique?page=2">2</a>
+<a class="paginate page" href="/forum/categorie/electronique?page=3">3</a>
+<span>...</span>
+<a class="paginate page" href="/forum/categorie/electronique?page=15">15</a>
+<a class="paginate page" href="/forum/categorie/electronique?page=16">16</a>
+<a class="paginate next" href="/forum/categorie/electronique?page=2"><span class="arrowRight"></span></a>
+<a class="paginate last" href="/forum/categorie/electronique?page=16">&gt;&gt;</a>
+</div>
+</section>
+<ul class="list">
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/aide-programmation-arduino-uno-ethernet-shield-33854">
+<h3>[Aide]Programmation arduino uno + ethernet shield</h3>
+<span>Par
+<strong>
+koussay1
+</strong>
+Le 3 avril 2012 à 17:02:04
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>7 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/aide-programmation-arduino-uno-ethernet-shield-33854/84276263">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Il y a 20 minutes</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/lecture-de-schemas">
+<h3>Lecture de schemas</h3>
+<span>Par
+<strong>
+Lord Casque Noir
+</strong>
+Le 21 avril 2013 à 10:45:50
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>5 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/lecture-de-schemas/84276151">
+Dernier message par
+<strong>
+botanicus
+</strong>
+<br/>Il y a environ 1 heure</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/electricite-demande-regroupement">
+<h3>Electricité, demande regroupement.</h3>
+<span>Par
+<strong>
+Zarkitch
+</strong>
+Il y a environ 4 heures
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>10 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/electricite-demande-regroupement/84275775">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Il y a environ 1 heure</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/recuperation-de-haut-parleur-tv">
+<h3>Récupération de Haut-Parleur TV</h3>
+<span>Par
+<strong>
+William Teyssonneyre
+</strong>
+Le 22 avril 2013 à 20:01:54
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>5 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/recuperation-de-haut-parleur-tv/84275655">
+Dernier message par
+<strong>
+botanicus
+</strong>
+<br/>Il y a environ 3 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/acquisition-des-donnees">
+<h3>Acquisition des données</h3>
+<span>Par
+<strong>
+Lebouletdelaclasse
+</strong>
+Il y a environ 7 heures
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>2 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/acquisition-des-donnees/84274869">
+Dernier message par
+<strong>
+Sam-U-Hell
+</strong>
+<br/>Il y a environ 6 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/logiciels-de-cao-en-electronique">
+<h3>Logiciels de CAO en électronique</h3>
+<span>Par
+<strong>
+Po2yaourt
+</strong>
+Hier à 11:19
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>9 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/logiciels-de-cao-en-electronique/84274850">
+Dernier message par
+<strong>
+Sam-U-Hell
+</strong>
+<br/>Il y a environ 7 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/camera-pour-arduino">
+<h3>Camera pour arduino</h3>
+<span>Par
+<strong>
+Sentinellexx
+</strong>
+Il y a environ 20 heures
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>6 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/camera-pour-arduino/84274809">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Il y a environ 7 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/urgent-arduino-l293d-stepper">
+<h3>Urgent Arduino L293d Stepper</h3>
+<span>Par
+<strong>
+aminetemri
+</strong>
+Il y a environ 17 heures
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>2 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/urgent-arduino-l293d-stepper/84274803">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Il y a environ 7 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/gerer-interrupteur-a-distance">
+<h3>Gérer interrupteur à distance</h3>
+<span>Par
+<strong>
+Magnetiix
+</strong>
+Le 19 avril 2013 à 21:18:35
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>5 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/gerer-interrupteur-a-distance/84274347">
+Dernier message par
+<strong>
+Magnetiix
+</strong>
+<br/>Il y a environ 17 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/aide-pour-un-menu-sur-lcd">
+<h3>Aide pour un Menu sur Lcd</h3>
+<span>Par
+<strong>
+fraelec21
+</strong>
+Le 22 avril 2013 à 22:51:50
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>13 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/aide-pour-un-menu-sur-lcd/84274205">
+Dernier message par
+<strong>
+fraelec21
+</strong>
+<br/>Il y a environ 17 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/arduino-serveur-web-94688">
+<h3>Arduino Serveur Web</h3>
+<span>Par
+<strong>
+Jérôme Perrin
+</strong>
+Le 28 septembre 2012 à 14:50:58
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>10 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduino-serveur-web-94688/84273960">
+Dernier message par
+<strong>
+SouperCookies
+</strong>
+<br/>Il y a environ 19 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/library-arduino-pour-le-wifi-direct">
+<h3>Library Arduino pour le WiFi Direct</h3>
+<span>Par
+<strong>
+MouadZ13
+</strong>
+Il y a environ 21 heures
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>2 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/library-arduino-pour-le-wifi-direct/84273750">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Il y a environ 20 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/arduino-liaison-sans-fil-entre-3-arduino">
+<h3>[arduino] liaison sans fil entre 3 arduino</h3>
+<span>Par
+<strong>
+MouadZ13
+</strong>
+Le 21 avril 2013 à 18:05:10
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>15 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduino-liaison-sans-fil-entre-3-arduino/84273712">
+Dernier message par
+<strong>
+MouadZ13
+</strong>
+<br/>Il y a environ 21 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/perte-de-tension">
+<h3>Perte de Tension</h3>
+<span>Par
+<strong>
+Sentinellexx
+</strong>
+Le 13 avril 2013 à 18:56:58
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>23 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/perte-de-tension/84273550">
+Dernier message par
+<strong>
+Sentinellexx
+</strong>
+<br/>Il y a environ 21 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/arduino-bouton-a-memoire-1bit">
+<h3>[Arduino] Bouton à mémoire 1bit</h3>
+<span>Par
+<strong>
+Doctormiller
+</strong>
+Il y a environ 23 heures
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>2 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduino-bouton-a-memoire-1bit/84273462">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Il y a environ 22 heures</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/chronometre-avec-declanchement-a-distance">
+<h3>Chronomètre avec déclanchement à distance</h3>
+<span>Par
+<strong>
+hl037
+</strong>
+Le 11 avril 2013 à 11:17:34
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>9 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/chronometre-avec-declanchement-a-distance/84272681">
+Dernier message par
+<strong>
+hl037
+</strong>
+<br/>Hier à 14:46</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/picaxe-18m2-avec-module-xbee">
+<h3>Picaxe 18M2 avec module xBee</h3>
+<span>Par
+<strong>
+gaellewalker
+</strong>
+Hier à 10:41
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>1 message</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/picaxe-18m2-avec-module-xbee/84271700">
+Dernier message par
+<strong>
+gaellewalker
+</strong>
+<br/>Hier à 10:41</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/comment-amplifier-mon-signal-wifi">
+<h3>Comment amplifier mon signal wifi?</h3>
+<span>Par
+<strong>
+floridamtb
+</strong>
+Le 23 avril 2013 à 21:05:41
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>2 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/comment-amplifier-mon-signal-wifi/84271320">
+Dernier message par
+<strong>
+fraelec21
+</strong>
+<br/>Hier à 7:59</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/circuit-edf-portable">
+<h3>Circuit EDF portable</h3>
+<span>Par
+<strong>
+Drakoste
+</strong>
+Le 22 avril 2013 à 11:51:55
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>7 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/circuit-edf-portable/84271273">
+Dernier message par
+<strong>
+Lord Casque Noir
+</strong>
+<br/>Hier à 6:31</a>
+</div>
+</div>
+</li>
+<li class="lock">
+<div class="row">
+<div class="cellsLink span5">
+<span class="lockSecure"></span> <a href="/forum/sujet/rotation-droite-gauche-mcc">
+<h3>Rotation droite gauche mcc</h3>
+<span>Par
+<strong>
+BenBen03
+</strong>
+Le 21 avril 2013 à 22:15:10
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>5 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/rotation-droite-gauche-mcc/84271066">
+Dernier message par
+<strong>
+Nathalya
+</strong>
+<br/>Hier à 0:43</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/fabriquer-son-antenne-wifi-51468">
+<h3>Fabriquer son antenne wifi ?!</h3>
+<span>Par
+<strong>
+floridamtb
+</strong>
+Le 29 mai 2012 à 16:51:55
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>18 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/fabriquer-son-antenne-wifi-51468/84270464">
+Dernier message par
+<strong>
+floridamtb
+</strong>
+<br/>Le 23 avril 2013 à 20:48:04</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<span class="resolved"></span>
+<a href="/forum/sujet/realisation-d-un-generateur-de-courant">
+<h3>réalisation d&#039;un générateur de courant</h3>
+<span>Par
+<strong>
+jamalkamal
+</strong>
+Le 11 avril 2013 à 12:20:06
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>12 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/realisation-d-un-generateur-de-courant/84270399">
+Dernier message par
+<strong>
+Uzrok
+</strong>
+<br/>Le 23 avril 2013 à 20:26:54</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/remplacee-le-cable-usb-par-du-bluetooth">
+<h3>Remplacee le cable USB par du bluetooth.</h3>
+<span>Par
+<strong>
+luxe38
+</strong>
+Le 23 avril 2013 à 16:19:28
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>1 message</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/remplacee-le-cable-usb-par-du-bluetooth/84269500">
+Dernier message par
+<strong>
+luxe38
+</strong>
+<br/>Le 23 avril 2013 à 16:19:28</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/grafcet-avec-arduino">
+<h3>GRAFCET Avec Arduino</h3>
+<span>Par
+<strong>
+GenHicham
+</strong>
+Le 22 avril 2013 à 23:22:37
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>3 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/grafcet-avec-arduino/84268352">
+Dernier message par
+<strong>
+fscorpio
+</strong>
+<br/>Le 23 avril 2013 à 10:29:12</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/gravure-des-informations-sur-circuit-imprime">
+<h3>Gravure des informations sur Circuit imprimé</h3>
+<span>Par
+<strong>
+arnaud79tardy
+</strong>
+Le 20 avril 2013 à 11:15:08
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>6 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/gravure-des-informations-sur-circuit-imprime/84267881">
+Dernier message par
+<strong>
+arnaud79tardy
+</strong>
+<br/>Le 23 avril 2013 à 1:16:44</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/compilateur-pour-c51">
+<h3>compilateur pour c51</h3>
+<span>Par
+<strong>
+raffi3438
+</strong>
+Le 21 avril 2013 à 20:41:55
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>4 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/compilateur-pour-c51/84267874">
+Dernier message par
+<strong>
+Nathalya
+</strong>
+<br/>Le 23 avril 2013 à 1:09:42</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/transistor-cms-introuvable">
+<h3>Transistor CMS introuvable</h3>
+<span>Par
+<strong>
+Nisnor
+</strong>
+Le 22 avril 2013 à 23:35:41
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>1 message</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/transistor-cms-introuvable/84267691">
+Dernier message par
+<strong>
+Nisnor
+</strong>
+<br/>Le 22 avril 2013 à 23:35:41</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/polarisation-d-un-transistor">
+<h3>polarisation d&#039;un transistor</h3>
+<span>Par
+<strong>
+Blaster78
+</strong>
+Le 14 avril 2013 à 16:59:46
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>4 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/polarisation-d-un-transistor/84266514">
+Dernier message par
+<strong>
+jamalkamal
+</strong>
+<br/>Le 22 avril 2013 à 16:27:45</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/robotique-mon-premier-projet-43078">
+<h3>[Robotique] mon premier projet</h3>
+<span>Par
+<strong>
+axeldu70
+</strong>
+Le 12 juillet 2012 à 14:57:26
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>120 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/robotique-mon-premier-projet-43078/84266415">
+Dernier message par
+<strong>
+axeldu70
+</strong>
+<br/>Le 22 avril 2013 à 15:58:47</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/programmateur-pic-60652">
+<h3>Programmateur PIC</h3>
+<span>Par
+<strong>
+hl037
+</strong>
+Le 6 janvier 2013 à 20:16:57
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>4 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/programmateur-pic-60652/84264789">
+Dernier message par
+<strong>
+a5er
+</strong>
+<br/>Le 21 avril 2013 à 23:37:08</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/relais-breadboard-et-secteur">
+<h3>Relais, Breadboard et Secteur</h3>
+<span>Par
+<strong>
+CortmanEhf
+</strong>
+Le 21 avril 2013 à 19:31:42
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>3 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/relais-breadboard-et-secteur/84264333">
+Dernier message par
+<strong>
+CortmanEhf
+</strong>
+<br/>Le 21 avril 2013 à 20:25:58</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/elec-en-regime-sinusoidal">
+<h3>Elec en régime sinusoïdal</h3>
+<span>Par
+<strong>
+MushFX
+</strong>
+Le 21 avril 2013 à 17:21:36
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>3 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/elec-en-regime-sinusoidal/84264265">
+Dernier message par
+<strong>
+zeqL
+</strong>
+<br/>Le 21 avril 2013 à 20:01:47</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/redaction-projet">
+<h3>Rédaction projet</h3>
+<span>Par
+<strong>
+BenBen03
+</strong>
+Le 14 avril 2013 à 15:22:18
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>8 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/redaction-projet/84264243">
+Dernier message par
+<strong>
+remace
+</strong>
+<br/>Le 21 avril 2013 à 19:52:13</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/sondage-une-e-boutique">
+<h3>[Sondage] Une e-boutique</h3>
+<span>Par
+<strong>
+electrovente
+</strong>
+Le 13 avril 2013 à 22:05:04
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>4 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/sondage-une-e-boutique/84261730">
+Dernier message par
+<strong>
+electrovente
+</strong>
+<br/>Le 20 avril 2013 à 17:35:48</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/je-ne-trouve-pas-de-decodeur-bcd-mc14543">
+<h3>Je ne trouve pas de décodeur BCD MC14543</h3>
+<span>Par
+<strong>
+Snoxer
+</strong>
+Le 18 mars 2013 à 8:34:26
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>11 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/je-ne-trouve-pas-de-decodeur-bcd-mc14543/84261136">
+Dernier message par
+<strong>
+Snoxer
+</strong>
+<br/>Le 20 avril 2013 à 13:33:22</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<span class="resolved"></span>
+<a href="/forum/sujet/arduino-radiocommande-et-recepteur">
+<h3>[Arduino] Radiocommande et recepteur</h3>
+<span>Par
+<strong>
+Venessiel
+</strong>
+Le 17 avril 2013 à 14:16:55
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>13 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduino-radiocommande-et-recepteur/84259588">
+Dernier message par
+<strong>
+Venessiel
+</strong>
+<br/>Le 19 avril 2013 à 18:48:04</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<span class="resolved"></span>
+<a href="/forum/sujet/recevoir-du-dmx-avec-un-arduino">
+<h3>recevoir du DMX avec un arduino !</h3>
+<span>Par
+<strong>
+Azazel44
+</strong>
+Le 17 avril 2013 à 15:02:21
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>15 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/recevoir-du-dmx-avec-un-arduino/84258748">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Le 19 avril 2013 à 14:29:37</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<span class="resolved"></span>
+<a href="/forum/sujet/arduino-low-ou-high">
+<h3>[Arduino] Low ou HIGH</h3>
+<span>Par
+<strong>
+didz41600
+</strong>
+Le 18 avril 2013 à 13:52:21
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>13 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduino-low-ou-high/84257137">
+Dernier message par
+<strong>
+didz41600
+</strong>
+<br/>Le 18 avril 2013 à 20:56:10</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/arduinouno-re-probleme-d-envoi-du-prog-carte">
+<h3>ArduinoUno re : probléme d&#039;envoi du prog carte</h3>
+<span>Par
+<strong>
+Adre892
+</strong>
+Le 6 avril 2013 à 14:06:12
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>11 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduinouno-re-probleme-d-envoi-du-prog-carte/84256977">
+Dernier message par
+<strong>
+Adre892
+</strong>
+<br/>Le 18 avril 2013 à 19:46:15</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/protocole-usb">
+<h3>protocole usb</h3>
+<span>Par
+<strong>
+Bigof
+</strong>
+Le 18 avril 2013 à 12:13:10
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>5 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/protocole-usb/84256934">
+Dernier message par
+<strong>
+Lord Casque Noir
+</strong>
+<br/>Le 18 avril 2013 à 19:25:48</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/contiki-sous-ubuntu">
+<h3>Contiki sous ubuntu</h3>
+<span>Par
+<strong>
+Akn_djila
+</strong>
+Le 9 avril 2013 à 15:24:56
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>3 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/contiki-sous-ubuntu/84256256">
+Dernier message par
+<strong>
+Akn_djila
+</strong>
+<br/>Le 18 avril 2013 à 15:39:19</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/debutant-moteurs-pas-a-pas">
+<h3>[Débutant] Moteurs pas à pas</h3>
+<span>Par
+<strong>
+Scyllan
+</strong>
+Le 18 avril 2013 à 14:36:49
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>1 message</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/debutant-moteurs-pas-a-pas/84256064">
+Dernier message par
+<strong>
+Scyllan
+</strong>
+<br/>Le 18 avril 2013 à 14:36:49</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/module-haute-frequence">
+<h3>Module Haute Fréquence</h3>
+<span>Par
+<strong>
+trichoko
+</strong>
+Le 17 avril 2013 à 0:10:57
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>8 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/module-haute-frequence/84254414">
+Dernier message par
+<strong>
+CortmanEhf
+</strong>
+<br/>Le 17 avril 2013 à 20:38:42</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/chatiere-automatise">
+<h3>Chatière Automatisé</h3>
+<span>Par
+<strong>
+Trayann
+</strong>
+Le 10 avril 2013 à 10:11:20
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>4 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/chatiere-automatise/84253503">
+Dernier message par
+<strong>
+Trayann
+</strong>
+<br/>Le 17 avril 2013 à 15:18:59</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<span class="resolved"></span>
+<a href="/forum/sujet/port-serie-grise">
+<h3>port serie grisé</h3>
+<span>Par
+<strong>
+Trayann
+</strong>
+Le 17 avril 2013 à 13:08:06
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>4 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/port-serie-grise/84253411">
+Dernier message par
+<strong>
+Trayann
+</strong>
+<br/>Le 17 avril 2013 à 14:54:40</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/allumer-une-led-avec-liaison-fm">
+<h3>allumer une led avec liaison FM</h3>
+<span>Par
+<strong>
+gremy57
+</strong>
+Le 12 avril 2013 à 17:20:23
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>3 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/allumer-une-led-avec-liaison-fm/84253025">
+Dernier message par
+<strong>
+didz41600
+</strong>
+<br/>Le 17 avril 2013 à 12:53:46</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<span class="resolved"></span>
+<a href="/forum/sujet/arduino-mesurer-une-intensite">
+<h3>[Arduino] Mesurer une intensité</h3>
+<span>Par
+<strong>
+CortmanEhf
+</strong>
+Le 6 avril 2013 à 20:30:47
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>5 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduino-mesurer-une-intensite/84251937">
+Dernier message par
+<strong>
+CortmanEhf
+</strong>
+<br/>Le 16 avril 2013 à 23:56:15</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/aide-longuer-et-ordre-d-un-filtre">
+<h3>Aide : longuer et ordre d&#039; un filtre</h3>
+<span>Par
+<strong>
+matotun
+</strong>
+Le 16 avril 2013 à 22:15:47
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>3 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/aide-longuer-et-ordre-d-un-filtre/84251894">
+Dernier message par
+<strong>
+matotun
+</strong>
+<br/>Le 16 avril 2013 à 23:28:06</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/arduino-arduino-uno-ou-arduino-mega-2560">
+<h3>[Arduino] arduino Uno ou Arduino mega 2560 ?</h3>
+<span>Par
+<strong>
+Adre892
+</strong>
+Le 16 avril 2013 à 17:17:21
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>5 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/arduino-arduino-uno-ou-arduino-mega-2560/84251527">
+Dernier message par
+<strong>
+Eskimon
+</strong>
+<br/>Le 16 avril 2013 à 20:26:43</a>
+</div>
+</div>
+</li>
+<li class="notRead">
+<div class="row">
+<div class="cellsLink span5">
+<a href="/forum/sujet/recherche-d-un-cours-sur-le-vhdl-1">
+<h3>Recherche d&#039;un cours sur le VHDL</h3>
+<span>Par
+<strong>
+GBT
+</strong>
+Le 15 avril 2013 à 21:01:12
+</span>
+</a>
+</div>
+<div class="cellsCentred span2">
+<p>4 messages</p>
+</div>
+<div class="cellsLink span3">
+<a class="lastComment" href="/forum/sujet/recherche-d-un-cours-sur-le-vhdl-1/84251509">
+Dernier message par
+<strong>
+GBT
+</strong>
+<br/>Le 16 avril 2013 à 20:21:07</a>
+</div>
+</div>
+</li>
+</ul>
+<section class="paginationContent">
+<div class="pagination">
+<span class="current">1</span>
+<a class="paginate page" href="/forum/categorie/electronique?page=2">2</a>
+<a class="paginate page" href="/forum/categorie/electronique?page=3">3</a>
+<span>...</span>
+<a class="paginate page" href="/forum/categorie/electronique?page=15">15</a>
+<a class="paginate page" href="/forum/categorie/electronique?page=16">16</a>
+<a class="paginate next" href="/forum/categorie/electronique?page=2"><span class="arrowRight"></span></a>
+<a class="paginate last" href="/forum/categorie/electronique?page=16">&gt;&gt;</a>
+</div>
+</section>
+<div id="newThread">
+<form class="formHidden" action="/forum/categorie/electronique" method="post">
+<h2>Créer un sujet</h2>
+<div class="alert alert-info ">
+<a data-dismiss="alert" class="close">×</a> Après avoir cliqué sur &quot;Envoyer&quot; vous serez invité à vous connecter pour que votre message soit publié. </div>
+<label for="ThreadForum_title" class="required">Titre</label>
+<input type="text" id="ThreadForum_title" name="ThreadForum[title]" required="required" maxlength="50"/>
+<label for="ThreadForum_subtitle">Sous-titre</label>
+<input type="text" id="ThreadForum_subtitle" name="ThreadForum[subtitle]" maxlength="70"/>
+<label for="ThreadForum_comments_0_wysiwyg_message" class="required">Votre message</label>
+<div class="wysiwygContent"><textarea id="ThreadForum_comments_0_wysiwyg_message" name="ThreadForum[comments][0][wysiwyg][message]" required="required" class="tinymce" data-theme="simple" placeholder="Rédigez votre message ici"></textarea><input type="hidden" id="ThreadForum_comments_0_wysiwyg" name="ThreadForum[comments][0][wysiwyg][writingType]" class="writingType" value="editor"/><div class="uploadMarkdownSource"><a href="#" title="Insérer une image"><span></span></a><input accept="image/*" name="Image[file]" type="file"/><span class="loading"></span><span class="error"></span></div><ul class="writingTypeSwitch"><li class="switchEditeur">Editeur<span class="ball" style="font-size:5px"> ● </span></li><li class="switchMarkdown inactive">Markdown</li></ul><p class="information infoMarkdown" style="display: none;float:left;">
+Vous pouvez rédiger votre message en <a href="/informatique/tutoriels/redigez-en-markdown" target="_blank">Markdown</a> ou en HTML uniquement.
+</p></div>
+<input type="hidden" id="ThreadForum__token" name="ThreadForum[_token]" value="538852d8fa6378a3007063fae14613630a655186"/>
+<section class="rowButton">
+<input name="submit_thread" type="submit" class="btn btn-primary right-flt" value="Envoyer"/>
+<input type="button" class="btn showMarkdownOverview" value="Aperçu"/>
+</section>
+</form> </div> </section>
+</section>
+<div class="adBan">
+<script type='text/javascript'>
+    if (window.innerWidth >= 728)
+    {
+        document.write('<div id="div-gpt-ad-1350977194635-4" class="megaban"></div>');
+        googletag.cmd.push(function() {
+            var separatorLabel = '&';
+var separatorKeyword = '=';
+var crtg_split = crtg_content.split(separatorLabel);
+for (var i=1;i<crtg_split.length;i++)
+{
+    googletag.pubads().setTargeting ("" + (crtg_split[i-1].split(separatorKeyword))[0] + "", "" + (crtg_split[i-1].split(separatorKeyword))[1] + "");
+}            googletag.display('div-gpt-ad-1350977194635-4');
+        });
+    }
+            else
+        {
+            document.write('<div id="div-gpt-ad-1350977284180-4" class="miniban"></div>');
+            googletag.cmd.push(function() {
+                var separatorLabel = '&';
+var separatorKeyword = '=';
+var crtg_split = crtg_content.split(separatorLabel);
+for (var i=1;i<crtg_split.length;i++)
+{
+    googletag.pubads().setTargeting ("" + (crtg_split[i-1].split(separatorKeyword))[0] + "", "" + (crtg_split[i-1].split(separatorKeyword))[1] + "");
+}                googletag.display('div-gpt-ad-1350977284180-4');
+            });
+        }
+    </script>
+</div>
+<footer id="mainFooter" role="contentinfo">
+<div class="containerSdz">
+<section class="row footerTablet">
+<div class="footerTop">
+<ul class="menu">
+<li class="sep"></li>
+<li class="tutorialLink ">
+<a href="/tutoriels">
+Tutoriels
+<span class="dropdownMenuTutorials"></span>
+</a>
+</li>
+<li class="sep"></li>
+<li class="forumLink "><a href="/forum/">Forums</a></li>
+<li class="sep"></li>
+<li class="bookstoreLink"><a href="http://boutique.siteduzero.com/boutique.html">Librairie</a></li>
+<li class="sep"></li>
+<li class="schoolLink "><a href="/etudes/">&Eacute;tudes</a>
+</li>
+<li class="sep"></li>
+<li class="jobLink"><a href="/emploi">Emploi</a></li>
+<li class="sep"></li>
+</ul>
+<form class="searchForm" action="/recherche/" method="get">
+<input type="submit" value="">
+<input type="search" placeholder="Recherche" name="q" value=""/>
+</form>
+</div>
+<div class="span4 newsletter">
+<h6>Inscrivez-vous à la newsletter</h6>
+<form class="newsletterForm" action="/newsletter/inscription" method="post">
+<input type="email" placeholder="Entrez votre e-mail" name="Welcome[email]"/>
+<input class="blue-button" type="submit" value="Ok"/>
+</form>
+</div>
+<div class="span4 socialLinks">
+<h6>Restez connect&eacute;</h6>
+<a href="http://facebook.com/siteduzero" id="facebookButton">
+<span class="ico"></span>
+<span>Devenez fan sur <strong>Facebook</strong></span>
+</a>
+<a href="https://twitter.com/#!/siteduzero" id="twitterButton">
+<span class="ico"></span>
+<span>Suivez nous sur <strong>Twitter</strong></span>
+</a>
+</div>
+</section>
+<hr/>
+<section class="row cgu">
+<ul class="span4 footerInfo">
+<li>
+<a href="/conditions-generales-utilisation">Conditions Générales d'Utilisation</a>
+</li>
+<li class="sep"></li>
+ 
+<li class="roadmap">
+<a href="/roadmap">Roadmap</a>
+</li>
+<li class="sep"></li>
+<li class="bugs">
+<a href="http://suggestions.siteduzero.com/forums/150762-rapports-de-bugs-v4?sso=">Bugs</a>
+</li>
+<li class="sep"></li>
+<li class="suggests">
+<a href="http://suggestions.siteduzero.com/forums/150761-site-du-z%C3%A9ro-v4?sso=">Suggestions</a>
+</li>
+<li class="sep"></li>
+</ul>
+<a class="span4 simple-it" href="http://simple-it.fr"><span>Réalisé par</span> <div id="simpleIt"></div></a>
+</section>
+</div>
+<script type="text/javascript">
+                setTimeout(function(){var a=document.createElement("script");
+                var b=document.getElementsByTagName("script")[0];
+                a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/8075.js?"+Math.floor(new Date().getTime()/3600000);
+                a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+            </script>
+</footer>
+<script type="text/javascript" src="/js/main.js?140"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [['\\(','\\)']],
+                    displayMath: [['$$','$$'], ['\\[','\\]']],
+                    skipTags: ["script","noscript","style","textarea","code"]
+                }
+            });
+        </script>
+<!--[if lt IE 7 ]>
+            <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+            <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+<script type="text/javascript" src="/bundles/tinymce/vendor/tiny_mce/tiny_mce.js?140"></script>
+<script type="text/javascript" src="/bundles/tinymce/js/ready.min.js?140"></script>
+<script type="text/javascript" src="/bundles/tinymce/js/init.standard.js?140"></script>
+<script type="text/javascript">
+//<![CDATA[
+    initTinyMCE({"include_jquery":false,"textarea_class":"tinymce","theme":{"tiny":{"theme":"advanced","skin":"sdz","valid_elements":"strong\/b,em\/i,a[href|target|title]","theme_advanced_buttons1":"bold,italic,link","theme_advanced_buttons2":"","theme_advanced_buttons3":"","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_blockformats":"p,h1,h2,h3","plugins":"inlinepopups","language":"fr","forced_root_block":false,"force_br_newlines":false,"force_p_newlines":false,"entity_encoding":"raw","gecko_spellcheck":true},"simple":{"theme":"advanced","skin":"sdz","theme_advanced_buttons1":"formatselect,fontsizeselect,bold,italic,forecolor,bullist,link,image,syntaxhl,emotions","theme_advanced_buttons2":"","theme_advanced_buttons3":"","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_blockformats":"p,h1,h2,h3","plugins":"syntaxhl, emotions, inlinepopups","language":"fr","forced_root_block":false,"force_br_newlines":false,"force_p_newlines":true,"entity_encoding":"raw","gecko_spellcheck":true},"strict":{"theme":"advanced","valid_styles":"color,font-size,font-weight,font-style,text-decoration","skin":"sdz","theme_advanced_buttons1":"formatselect,fontsizeselect,bold,italic,forecolor,bullist,link,image,syntaxhl,emotions","theme_advanced_buttons2":"","theme_advanced_buttons3":"","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_blockformats":"p,h1,h2,h3","plugins":"syntaxhl, emotions, inlinepopups","language":"fr","forced_root_block":false,"force_br_newlines":false,"force_p_newlines":true,"entity_encoding":"raw","gecko_spellcheck":true},"advanced":{"theme":"advanced","plugins":"syntaxhl,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template","theme_advanced_buttons1":"syntaxhl,|save,newdocument,|,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,styleselect,formatselect,fontselect,fontsizeselect","theme_advanced_buttons2":"cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor","theme_advanced_buttons3":"tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,emotions,iespell,media,advhr,|,print,|,ltr,rtl,|,fullscreen","theme_advanced_buttons4":"insertlayer,moveforward,movebackward,absolute,|,styleprops,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,pagebreak","theme_advanced_toolbar_location":"top","theme_advanced_toolbar_align":"left","theme_advanced_statusbar_location":"bottom","theme_advanced_resizing":true,"remove_linebreaks":false,"language":"fr","gecko_spellcheck":true}},"tinymce_jquery":false,"jquery_script_url":"\/bundles\/tinymce\/vendor\/tiny_mce\/tiny_mce.js?140"});
+//]]>
+</script>
+<script type="text/javascript">
+            $('.courseTitle').tooltip({placement: "bottom"});
+            $('.flag, .tutoBeginner').tooltip({trigger: 'manual', html: true, placement: "bottom"}).mouseenter(function(e) {
+                $('div.tooltip').hide();
+                $(this).tooltip('show');
+
+            }).mouseleave(function(e) {
+                var ref = $(this);
+                timeoutObj = setTimeout(function(){
+                    ref.tooltip('hide');
+                }, 50);
+            });
+        </script>
+<script type="text/javascript">
+        $('a.news_alert').click(function(e){
+            var loadNewsAlert = false;
+            if(!loadNewsAlert) {
+                loadNewsAlert = true;
+                ajax("/popin/news-alerte-site-du-zero-cookie", 'POST');
+            }
+        });
+    </script>
+<script type="text/javascript" src="http://ayads.co/ajs.php?zid=190"></script>
+<script type="text/javascript">
+    $('.lastUnreadComment').tooltip({title: 'Dernier message non lu', placement: "bottom"});
+</script>
+<script>
+$(document).ready(function() {
+    
+    $('.categoryForum a').hover(function(){
+        
+        if($(this).find('.backgroundArrow').length != 0)
+        {
+            $(this).find('.backgroundArrow').show();
+        }
+        else
+        {
+            $(this).parent('.categoryForum').find('.backgroundArrow:first').show();
+        }
+        
+    },function(){
+        
+        if($(this).find('.backgroundArrow').length != 0)
+        {
+            $(this).find('.backgroundArrow').hide();
+        }
+        else
+        {
+            $(this).parent('.categoryForum').find('.backgroundArrow:first').hide();
+        }
+        
+    });
+});
+</script> <script type="text/javascript">
+$("a.createThread").live('click',function(e){
+    e.preventDefault();
+    $("section.paginationContent:last a.btn").hide();
+    $('#newThread .formHidden').fadeIn();
+    $('#newThread form').find('input:last').focus();
+    $('#newThread form').find('input:first').focus();
+});
+
+if ($('#newThread .formHidden').css('display') != 'none')
+{
+    $("section.paginationContent:last a.btn").hide();
+    $('#newThread form').find('input:last').focus();
+    $('#newThread form').find('input:first').focus();
+}
+</script> <script type="text/javascript">
+$(document).ready(function() {
+    
+    $('.deleteAction').live('click', function(e){
+        if (!confirm('Etes-vous sûr de vouloir supprimer ce message ?'))
+        {
+            return false;
+        }
+    });
+    
+});
+</script> <script type="text/javascript">
+
+    jQuery.fn.extend({
+        insertAtCaret: function(myValue){
+        return this.each(function(i) {
+            if (document.selection) {
+                //For browsers like Internet Explorer
+                this.focus();
+                sel = document.selection.createRange();
+                sel.text = myValue;
+                this.focus();
+            }
+            else if (this.selectionStart || this.selectionStart == '0') {
+                //For browsers like Firefox and Webkit based
+                var startPos = this.selectionStart;
+                var endPos = this.selectionEnd;
+                if(startPos == '0'){
+                    endPos = startPos = this.value.length;
+                }
+                var scrollTop = this.scrollTop;
+                this.value = this.value.substring(0, startPos)+myValue+this.value.substring(endPos,this.value.length);
+                this.focus();
+                this.selectionStart = startPos + myValue.length;
+                this.selectionEnd = startPos + myValue.length;
+                this.scrollTop = scrollTop;
+            } else {
+                this.value += myValue;
+                this.focus();
+            }
+        })
+        }
+    });
+
+    function uploadReturn(returnCode, returnTxt){
+        var loading = activeTextarea.closest('form').find('span.loading');
+        loading.hide();
+        var wrapError = activeTextarea.closest('form').find('span.error');
+        if(returnCode){
+            activeTextarea.insertAtCaret('![]('+returnTxt+')');
+            wrapError.html('');
+        }
+        else{
+            wrapError.html(returnTxt);
+        }
+        $('div.uploadMarkdownSource input[type=file]').removeAttr('disabled');
+    }
+
+    // Updates switch menu display
+    $('.writingTypeSwitch').each(function(){
+        switchMenuDisplay($(this).closest('.wysiwygContent').find('textarea.tinymce').attr('id'));
+    });
+
+    $('div.uploadMarkdownSource a').live('click', function(e){
+        e.preventDefault();
+        $(this).next().click();
+    });
+
+    var activeTextarea = null;
+    function sendImage(){
+        $('div.uploadMarkdownSource input[type=file]').unbind('change');
+        $('div.uploadMarkdownSource input[type=file]').change(function(){
+
+            // preparation de l'iframe async si inexistante
+            if($('#uploadFrame').length<1)
+                $('<iframe id="uploadFrame" name="uploadFrame" src="#" style="display:none"></iframe>').appendTo('body');
+
+            var parentForm = $(this).closest('form');
+            activeTextarea = parentForm.find('textarea');
+
+            var loading = activeTextarea.closest('form').find('span.loading');
+            loading.css('display', 'inline-block');
+
+            var wrapError = activeTextarea.closest('form').find('span.error');
+            wrapError.html('');
+
+            var parentNode = $(this).parent();
+            var parentNodeClone = parentNode.clone(true).insertAfter(parentNode);
+            parentNodeClone.children('input').val('');
+
+            // deplacement du champ input dans un nouveau form pour upload
+            $('<form target="uploadFrame" action="/img/upload" method="post" class="markdownWrap" enctype="multipart/form-data" >').append(parentNode).insertAfter(parentForm);
+            $('form.markdownWrap').submit().remove();
+
+            $('div.uploadMarkdownSource input[type=file]').attr('disabled', 'disabled');
+
+        });
+    }
+    sendImage();
+
+    $('.switchMarkdown').live('click',function(){
+
+        var divContent = $(this).closest('.wysiwygContent');
+
+        if(isTextareaEmpty(divContent,true) && $(this).hasClass('inactive'))
+        {
+            switchToMarkdown(divContent);
+
+            divContent.find('.writingType').val('markdown');
+            // Remove wysiwyg
+            tinyMCE.execCommand('mceRemoveControl', false, divContent.find('textarea').attr('id'));
+            divContent.find('textarea').attr('required', 'required');
+
+            divContent.find('textarea').focus();
+            currentFocus = divContent.find('textarea');
+            wysiwygContent = divContent.find('.wysiwygContent');
+            textareaContent = divContent.find('textarea');
+        }
+    });
+
+    $('.switchEditeur').live('click',function(){
+        var divContent = $(this).closest('.wysiwygContent');
+
+        if(isTextareaEmpty(divContent,true) && $(this).hasClass('inactive'))
+        {
+            $(this).removeClass('inactive');
+
+            divContent.find('.uploadMarkdownSource').hide();
+            divContent.find('.switchMarkdown').addClass('inactive');
+            // Hide mardown info, overview button and overview
+            divContent.find('.infoMarkdown').hide();
+            divContent.parent().find('.showMarkdownOverview').hide();
+            if(divContent.parent().find('.markdownOverview').length > 0)
+            {
+                divContent.parent().find('.markdownOverview').remove();
+            }
+
+            divContent.find('.writingType').val('editor');
+            // Add wysiwyg
+            addWysiwyg(divContent.find('textarea').attr('id'), divContent.find('textarea').hasClass('error'));
+            divContent.find('textarea').removeAttr('required');
+
+            wysiwygContent = divContent.find('.wysiwygContent');
+            textareaContent = divContent.find('textarea');
+        }
+    });
+
+    // Display menu update when content changes
+    $('.wysiwygContent textarea').live('keyup',function(){
+        switchMenuDisplay($(this).attr('id'));
+    });
+
+    // Mardown overview
+    var lockOverview = false;
+
+    $('.showMarkdownOverview').live('click',function(){
+        var overviewButton = $(this);
+        var parent = overviewButton.closest('form');
+        var textarea = parent.find('.wysiwygContent textarea.tinymce');
+        if(lockOverview == false)
+        {
+            lockOverview = true;
+            // Disables textarea and overview button
+            textarea.attr('disabled', 'disabled');
+            overviewButton.attr('disabled', 'disabled');
+            // Gets purified content
+            ajax('/apercu', 'POST', {content: textarea.val()}, function(result){
+                // Replaces div content if exists or adds div
+                if( parent.find('.markdownOverview').length > 0)
+                {
+                    parent.find('.markdownOverview').html(result);
+                }
+                else
+                {
+                    parent.append('<div class="markdownOverview comment">' + result + '</div>');
+                }
+                // Enables textarea and overview button
+                textarea.removeAttr('disabled');
+                overviewButton.removeAttr('disabled');
+                SyntaxHighlighter.highlight();
+                lockOverview = false;
+            });
+        }
+    });
+
+    // Display markdown info, overview button and updates switch classes
+    function switchToMarkdown(divContent)
+    {
+        divContent.find('.infoMarkdown').show();
+        divContent.parent().find('.showMarkdownOverview').show();
+        divContent.find('.switchEditeur').addClass('inactive');
+        divContent.find('.switchMarkdown').removeClass('inactive');
+        divContent.find('.uploadMarkdownSource').show();
+    }
+
+    // Updates writing type menu display
+    function switchMenuDisplay(id)
+    {
+        var divContent = $('#'+id).closest('.wysiwygContent');
+        var writingTypeSwitch = divContent.find('.writingTypeSwitch');
+
+        if(writingTypeSwitch.length > 0)
+        {
+            if(!writingTypeSwitch.is(':hidden') && !isTextareaEmpty(divContent,false))
+            {
+                writingTypeSwitch.hide();
+            }
+
+            if(writingTypeSwitch.is(':hidden') && isTextareaEmpty(divContent,false))
+            {
+                writingTypeSwitch.show();
+            }
+        }
+        if(writingTypeSwitch.hasClass('prefill'))
+        {
+            writingTypeSwitch.removeClass('prefill');
+            writingTypeSwitch.show();
+        }
+    }
+
+    // Retrieves if texterea is empty or not, with optionaly an alert message
+    function isTextareaEmpty(divContent, withMessage)
+    {
+        // if wysiwyg
+        if(divContent.find('.mceEditor').length > 0)
+        {
+            tinyMCE.execCommand('mceFocus', false, divContent.find('textarea').attr('id'));
+
+            if(tinyMCE.activeEditor.getContent() == '')
+            {
+                return true;
+            }
+        }
+        // if markdown
+        else if(divContent.find('textarea').val() == "")
+        {
+            return true;
+        }
+
+        if(withMessage)
+        {
+            alert("Vous ne pouvez plus changer de mode après avoir commencé à rédiger");
+        }
+
+        return false;
+    }
+
+    // Add wysiwyg or switch to markdown
+    function updateTextareaDisplay(divContent)
+    {
+        if(divContent.find('.writingType').val() == 'editor')
+        {
+            var textarea = divContent.find('textarea.tinymce');
+            tinyMCE.execCommand('mceRemoveControl', false, textarea.attr('id'));
+            addWysiwyg(textarea.attr('id'), textarea.hasClass('error'));
+        }
+        else
+        {
+            switchToMarkdown(divContent);
+        }
+    }
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-19807070-2']);
+
+                
+    _gaq.push(['_setCustomVar',5,'Type de visiteur', 'Non connecte', 3]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' :'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<div style="position: absolute;">
+<script type="text/javascript" src="http://loadeu.exelator.com/load/?p=431&amp;c=927073&amp;g=001&amp;ctg=forum&amp;subctg=sciences&amp;subctg1=electronique"></script>
+</div>
+<script src="https://d2v50sn7jpf67y.cloudfront.net/tt-e4575f9ec28eb3e19751feec5a7473815bc995f98508dc11a6fd513ec03539c3.js"></script>
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"d1ros97qkrwjf5.cloudfront.net/42/eum/rum.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-3.newrelic.com","61cf5b59c4","1775040","MQNXbUNYDURXBRJQCghJdkxCTQxaGRIOSwAHAnNWQ0wOaFoPFU0=",0,222,new Date().getTime(),"","","","",""]);</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&"www.cloudflare.com/email-protection"==a.substr(7 ,35)){s='';j=43;r=parseInt(a.substr(j,2),16);for(j+=2;a.length-j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>

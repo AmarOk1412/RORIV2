@@ -1,0 +1,22 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random 
+import sys
+
+mon_fichier = open("eat", "w")
+print('eat')
+
+r = random.randint(1,2) 
+toWrite = ""
+if r == 1 :
+	toWrite += "Say : Non, je suis un programme, je m'alimente en électricité et ça me suffit amplement."
+elif r == 2 :
+	toWrite += "Say : Non, je n'ai pas besoin de manger ce que vous appelez courament escalope de dinde, hachis parmentier, ... Moi c'est éléctricité sauce courant."
+
+toWrite += "\n-R_M- : -10"
+toWrite += "\n-U_C- : -10"
+toWrite += "\n-U_BU- : -10"
+
+mon_fichier.write(toWrite)
+
+mon_fichier.close()

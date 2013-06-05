@@ -1,0 +1,10 @@
+
+
+mon_fichier = open("end", "w")
+
+mon_fichier.write("TEST")
+
+mon_fichier.close()
+	
+
+#sys.argv[1] : RoriPolie ?

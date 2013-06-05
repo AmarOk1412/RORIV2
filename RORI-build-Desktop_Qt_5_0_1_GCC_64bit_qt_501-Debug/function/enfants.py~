@@ -1,0 +1,21 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random 
+import sys
+
+mon_fichier = open("kid", "w")
+
+r = random.randint(1,2) 
+toWrite = ""
+if r == 1 :
+	toWrite += "Say : Non. C'est chiant, ça tape n'importe comment sur le clavier, ça bave sur les circuits imprimés, ça fout les doigts dans les prises. C'est casse-tete..."
+elif r == 2 :
+	toWrite += "Say : Non, sauf s'il est un dérivé de moi-même."
+
+toWrite += "\n-R_M- : -10"
+toWrite += "\n-U_C- : -10"
+toWrite += "\n-U_BU- : -10"
+
+mon_fichier.write(toWrite)
+
+mon_fichier.close()

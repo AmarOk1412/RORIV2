@@ -1,0 +1,2 @@
+nom
+Action de saluer à la fin de la conversation

@@ -1,0 +1,20 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random 
+import sys
+
+mon_fichier = open("age", "w")
+
+r = random.randint(1,2) 
+toWrite = ""
+if r == 1 :
+	toWrite += "Say : Vous avez " + sys.argv[1] + " printemps"
+elif r == 2 :
+	toWrite += "Say : Vous avez " + sys.argv[1] + " années"
+
+toWrite += "\n-R_M- : -10"
+toWrite += "\n-U_C- : -10"
+
+mon_fichier.write(toWrite)
+
+mon_fichier.close()

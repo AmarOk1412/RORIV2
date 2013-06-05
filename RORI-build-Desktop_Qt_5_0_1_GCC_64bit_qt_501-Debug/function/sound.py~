@@ -1,0 +1,14 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random 
+import sys
+import subprocess
+import os
+
+subprocess.call("pactl set-sink-volume 0 50%", shell = True)
+
+mon_fichier = open("s", "w")
+toWrite = "lalalilala"
+mon_fichier.write(toWrite)
+
+mon_fichier.close()

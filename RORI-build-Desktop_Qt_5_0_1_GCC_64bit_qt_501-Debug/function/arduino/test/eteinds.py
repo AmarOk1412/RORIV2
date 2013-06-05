@@ -1,0 +1,18 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import serial
+import time
+
+port = "/dev/ttyACM0"
+ser = serial.Serial(port, 9600)
+toWrite = "Say : Nuit ! Jour ! ça me rappelle drolement les visiteurs"
+time.sleep(3)
+
+ser.write('e')
+
+ser.close()
+mon_fichier = open("end", "w")
+
+mon_fichier.write(toWrite)
+
+mon_fichier.close()

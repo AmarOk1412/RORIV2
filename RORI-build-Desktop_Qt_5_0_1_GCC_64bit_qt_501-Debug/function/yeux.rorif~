@@ -1,0 +1,27 @@
+R_BH U_NI
+python function/eyes.py
+eyes
+
+1. première ligne : conditions
+2. Seconde ligne : adresse du script python à éxécuter avec en paramètres les arguments.
+3. Dernière ligne : fichier de sortie
+
+scriptPython.replace("-R_H-", QString::number(roriProfil->getRoriHumor()));
+            scriptPython.replace("-R_P-", QString::number(roriProfil->getRoriPolite()));
+            scriptPython.replace("-R_J-", QString::number(roriProfil->getRoriJokes()));
+            scriptPython.replace("-R_BIA-", QString::number(roriProfil->getRoriIsABadIA()));
+            scriptPython.replace("-R_S-", QString::number(roriProfil->getRoriScared()));
+            scriptPython.replace("-R_M-", QString::number(roriProfil->getRoriMoral()));
+            scriptPython.replace("-R_NAME-", roriProfil->getNom());
+            scriptPython.replace("-R_PNAME-", roriProfil->getPrenom());
+            scriptPython.replace("-R_AGE-", QString::number(roriProfil->getAge()));
+            scriptPython.replace("-U_H-", QString::number(userProfil->getUHumor()));
+            scriptPython.replace("-U_P-", QString::number(userProfil->getUPolite()));
+            scriptPython.replace("-U_J-", QString::number(userProfil->getUJokes()));
+            scriptPython.replace("-U_BU-", QString::number(userProfil->getUIsABadUser()));
+            scriptPython.replace("-U_M-", QString::number(userProfil->getUMoral()));
+            scriptPython.replace("-U_NAME-", userProfil->getNom());
+            scriptPython.replace("-U_PNAME-", userProfil->getPrenom());
+            scriptPython.replace("-U_AGE-", QString::number(userProfil->getAge()));
+            QString saluerToText = saluer? "t" : "f";
+            scriptPython.replace("-SALUER?-", saluerToText);

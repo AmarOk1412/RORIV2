@@ -1,0 +1,25 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random 
+import sys
+import subprocess
+import os
+
+mon_fichier = open("song", "w")
+
+r = random.randint(1,2) 
+toWrite = ""
+if r == 1 :
+	toWrite = "Say : C'est parti !"
+else :
+	toWrite = "Say : Vous aller voir, j'ai une belle voix ! "
+
+toWrite += "\n-R_M- : -10"
+toWrite += "\n-U_C- : -10"
+toWrite += "\n-U_BU- : -10"
+
+mon_fichier.write(toWrite)
+
+mon_fichier.close()
+
+subprocess.call("cvlc function/programms/mp3/song.mp3", shell = True)

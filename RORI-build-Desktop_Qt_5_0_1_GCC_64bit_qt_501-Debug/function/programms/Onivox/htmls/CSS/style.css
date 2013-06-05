@@ -1,0 +1,73 @@
+body
+{
+background-image:url('../Extras/bg.png');
+}
+*{ padding:0px; margin:0px; }
+a{ color:#000000; }
+.box{ 
+		width: 305px; 
+		height: 150px; 
+		margin:10px; 
+		float:left; 
+		overflow: hidden;
+
+	}
+.box2{ 
+		width: 150px; 
+		height: 470px; 
+		margin:10px; 
+		float:left; 
+		overflow: hidden;
+
+	}
+.double{ 
+		width: 150px; 
+		height: 150px; 
+		margin-top:10px; 
+		float:left; 
+		overflow: hidden; 
+	}
+.box2 img{ 
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			border: 0; 
+		}
+.box img{ 
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			border: 0; 
+		}
+.container {
+      width: 60px;
+      margin: 550px auto;
+      text-align: left;
+    }
+    .tab-nav {
+      width: 640px;
+      overflow: hidden;
+    }
+    .tab-nav ul {
+      position: relative;
+      float: left; 
+      width: 1600px;
+      margin-left: 535px; 
+      padding-left: 0;
+      list-style-type: none;
+    }
+    .tab-nav li { 
+      float: left;
+      clear: left; 
+    }
+
+    .tab-nav p {
+      display: block;
+      float: left;
+      text-align: center;
+      text-decoration: none;
+    }
+/* second level */
+    .tab-nav ul ul { float: left; width: auto; margin-left: 0;}
+    .tab-nav li li {clear: none;}
+    .tab-nav li li a { width: 100px; background-image: none;}

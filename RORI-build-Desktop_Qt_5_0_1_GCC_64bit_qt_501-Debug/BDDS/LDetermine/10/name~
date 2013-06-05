@@ -1,0 +1,7 @@
+^((Q|q)uel es(t|) (ton|le).{0,30}nom.{0,40})
+^((Q|q)ui es(t|).{0,4}(vous|tu))
+^((P|p)ourquoi.{0,40}(RORI|rori|Rori|R.O.R.I.))
+^((C|c)omment.{0,30}t.{0,10}(ap(p|)el(l|)|nom).{0,30})
+^((T|t)u.{0,30}(jamais|déjà|pas) di(t|s).{0,30}nom)
+
+
