@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RORI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="send">Envoyer</string>
+    <string name="_sdcard_download_roriandroid_txt">/sdcard/Download/RORIAndroid.txt</string>
+    <string name="_sdcard_download_roriandroidout_txt">/sdcard/Download/RORIAndroidOut.txt</string>
+
+</resources>

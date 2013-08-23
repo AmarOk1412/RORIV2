@@ -1,0 +1,1 @@
+am start -a android.intent.action.SENDTO -d sms:0646397816 --es sms_body "TEST RORI" --ez exit_on_sent true
