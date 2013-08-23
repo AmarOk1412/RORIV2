@@ -1,0 +1,52 @@
+# -*-coding:Latin-1 -*
+import urllib, re
+
+#Contiendra la liste des liens des sujets à lire
+final = list()
+
+forums = ['http://www.siteduzero.com/forum/categorie/langage-c-1', 
+'http://www.siteduzero.com/forum/categorie/langage-java',
+'http://www.siteduzero.com/forum/categorie/langage-python', 
+'http://www.siteduzero.com/forum/categorie/mobile', 
+'http://www.siteduzero.com/forum/categorie/windows', 
+'http://www.siteduzero.com/forum/categorie/linux-freebsd',
+'http://www.siteduzero.com/forum/categorie/graphisme-3d',
+'http://www.siteduzero.com/forum/categorie/graphisme-2d',
+'http://www.siteduzero.com/forum/categorie/discussions-informatiques', 
+'http://www.siteduzero.com/forum/categorie/problemes-techniques', 
+'http://www.siteduzero.com/forum/categorie/discussions-generales', 
+'http://www.siteduzero.com/forum/categorie/presentation-de-vos-projets',
+'http://www.siteduzero.com/forum/categorie/electronique']
+
+reParCate = ['(qt\-5|tableau|console|cours|d(é|e)butant|besoin\-d\-aide|calcul|cr(é|e).{1,2}|while|for|fichier|et-si|ia|artificiel)',
+'(eclipse|tableau|console|cours|d(é|e)butant|besoin\-d\-aide|calcul|cr(é|e).{1,2}|while|for|fichier|et-si|ia|artificiel)',
+'(tableau|console|cours|d(é|e)butant|besoin\-d\-aide|calcul|cr(é|e).{1,2}|while|for|fichier|et-si|ia|artificiel)',
+'(tableau|console|cours|d(é|e)butant|besoin\-d\-aide|calcul|cr(é|e).{1,2}|while|for|fichier|et-si|realite\-augmente|lock|tty|sonnerie|ia|artificiel)',
+'(internet-explorer|site-internet|ip|ssh|controler|cmd)',
+'(ddos|email|ssh|ip|leger|rapide)',
+'(sentry|wip)',
+'(webdesign|dessin|site)',
+'(controler|betise|ddos|langage|ip|ados|ia|artificiel)',
+'(dell|crash)',
+'(telephone|desktop|moderateur|modere|sdz|ia|artificiel|bot)',
+'(fps|android|photo|ia|artificiel)',
+'(bluetooth|robotique|distance|envoi-sur)' ]
+
+i = 0
+while i < len(forums) and i < 10 :
+	urllib.urlretrieve(forums[i],'codeSource')
+	links_regexp = re.compile('<a href="\/forum\/sujet\/(.*?)"?>',re.IGNORECASE) 
+	html = open('codeSource','rb').read()
+	for subject in links_regexp.findall(html) :
+		m = re.search(reParCate[i], subject)#regex de ce qu'on veut
+		if m is not None :
+			final.append('--OPN--http://www.siteduzero.com/forum/sujet/' + subject)
+	i += 1
+
+final = '\n'.join(final)	
+result = open('socket', 'w')
+result.write(final)
+result.close()
+mon_fichier = open("end", "w")
+mon_fichier.write('Say : ça a pris un peu de temps, mais voilà les sujets du moment qui peuvent vous intéresser !')
+mon_fichier.close()

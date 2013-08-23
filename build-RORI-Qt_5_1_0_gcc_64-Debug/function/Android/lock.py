@@ -1,0 +1,12 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random 
+import sys
+import subprocess
+import os
+
+subprocess.call("python function/Android/sendToAndroid.py Say : PC verrouillé !", shell=True)
+
+subprocess.call("gnome-screensaver-command -l", shell = True)
+
+

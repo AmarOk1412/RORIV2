@@ -523,10 +523,38 @@ QString MemoryInterface::getCategorie(QString word)
     return toReturn;
 }
 
+/**
+ * @brief MemoryInterface::getType get if the word is a name, a adverb, a verb, ...
+ * @param word the word to get the type
+ * @return the type of the word
+ */
 QString MemoryInterface::getType(QString word)
 {
     QString toReturn;
+    QString type;
+    word = word.toLower();
 
+    QFile *arbo = new QFile("../BDD/arbo.txt");
+    QString ligneWord;
+    arbo->open(QIODevice::ReadOnly);
+    while(ligneWord.indexOf('/' + word + '/') == -1 && !arbo->atEnd())
+    {
+        ligneWord = arbo->readLine().trimmed();
+    }
+
+    if(!ligneWord.isEmpty() && !arbo->atEnd())
+    {
+        QFile def("../BDD/" + ligneWord + word + "-def.txt");
+        if(def.exists())
+        {
+            def.open(QIODevice::ReadOnly);
+            if(def.isOpen())
+                type = def.readLine().trimmed();
+        }
+    }
+
+    if(!type.isEmpty())
+        toReturn = type;
 
     return toReturn;
 }

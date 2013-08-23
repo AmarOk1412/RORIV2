@@ -1,0 +1,50 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+import urllib, sys, re, BeautifulSoup
+from xml.dom import minidom
+
+params = ""
+i = 1
+while i < len(sys.argv):
+    if sys.argv[i] != '?' and sys.argv[i] != '!':
+	    if i != len(sys.argv) - 1:
+		params += sys.argv[i] + " "
+	    else:
+		params += sys.argv[i]
+    i += 1
+
+r = re.compile(r"(d(é|e)cris.(moi.|)((un|une|la|le).||qui.es(t|)|qu.es(t|).ce.qu(.(un|une)|e.(un|une|la|le)))|bio(graphie|)(.compl(è|e)te|)(.de|.d.|.))(.{0,200})")
+results = r.findall(params)
+
+codeSrc = urllib.urlopen('http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch='+ results[0][len(results[0]) - 1] +'+?&srprop=timestamp&format=xml').read()
+
+xmlFile = open('test.xml', 'w')
+xmlFile.write(codeSrc)
+xmlFile.close()
+
+xmldoc = minidom.parse('test.xml')
+itemlist = xmldoc.getElementsByTagName('p')
+
+codeSrc = urllib.urlopen('http://fr.wikipedia.org/w/api.php?action=query&format=xml&prop=extracts&explaintext&titles=' + itemlist[0].attributes['title'].value.encode('ascii','ignore')).read()
+
+doc = BeautifulSoup.BeautifulSoup(codeSrc)
+
+mon_fichier = open("end", "w")
+mon_fichier2 = open("end2", "w")
+toWrite = "LongSay : Voici ce que dis Wikipédia :\n"
+
+temp = ""
+for a in doc.findAll('extract'):
+    temp += a.text.encode('ascii','ignore')
+toWrite += temp
+toWrite += "\nLongSay"
+toWrite += "\n-R_M- : -10"
+toWrite += "\n-R_J- : -10"
+toWrite += "\n-U_C- : -10"
+toWrite += "\n-U_BU- : -10"
+
+mon_fichier.write(toWrite)
+mon_fichier2.write(toWrite)
+
+mon_fichier.close()
+mon_fichier2.close()

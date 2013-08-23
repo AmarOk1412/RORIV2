@@ -30,6 +30,7 @@ public:
     MainWindow();
     void setupUI();
     void initVars();
+    QString makeRegex(QStringList phrases);
 
 public slots:
     void sendMessage(QTcpSocket *cible, QString message);
@@ -45,6 +46,7 @@ public slots:
     void newConnection();
     void saySomething(QString message);
     int tempsAvantQuestion();
+    void getAndroidConnection();
 
 private:
     Semantik *semantik;
@@ -57,6 +59,8 @@ private:
     QTcpSocket *socketAnswer;
     int temps;
     QTimer *timer;
+    QTimer *timerAndroid;
+    QString lastRqAndroid;
 };
 
 #endif // MAINWINDOW_H

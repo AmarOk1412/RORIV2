@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<current>
+  <city id="2983990" name="Rennes">
+    <coord lon="-1.67429" lat="48.11198"/>
+    <country>FR</country>
+    <sun rise="2013-08-23T05:13:13" set="2013-08-23T19:05:03"/>
+  </city>
+  <temperature value="293.15" min="293.15" max="293.15" unit="kelvin"/>
+  <humidity value="60" unit="%"/>
+  <pressure value="1013" unit="hPa"/>
+  <wind>
+    <speed value="2.6" name="Light breeze"/>
+    <direction value="140" code="SE" name="SouthEast"/>
+  </wind>
+  <clouds value="64" name="broken clouds"/>
+  <precipitation mode="no"/>
+  <weather number="803" value="nuages éparses" icon="04d"/>
+  <lastupdate value="2013-08-23T08:00:00"/>
+</current>

@@ -89,6 +89,7 @@ void Semantik::workData(QString message)
                         {
                             QString regExpTest = temp.readLine().trimmed();
                             //On regarde si on a un mot de la catégorie demandé et on le remplace.
+                            //TODO: TYPE
                             if(!regExpTest.isEmpty())
                             {
                                 int indexReplace = regExpTest.indexOf("--");
@@ -114,13 +115,40 @@ void Semantik::workData(QString message)
                                         params += "--" + words.at(indexCate) + "--";
                                     }
                                 }
+
+                                int indexReplaceType = regExpTest.indexOf("##");
+                                if(indexReplaceType != -1)
+                                {
+                                    QString tempType;
+                                    indexReplaceType += 2;
+                                    while(regExpTest[indexReplaceType] != '#' && indexReplaceType < regExpTest.length() - 1)
+                                    {
+                                        tempType += regExpTest[indexReplaceType];
+                                        ++indexReplaceType;
+                                    }
+                                    QStringList temp = setTypesWords(words);
+                                    int indexType = -1;
+                                    for(int z = 0; z < temp.count(); ++z)
+                                    {
+                                        if(temp.at(z).indexOf(tempType.toLower()) != -1)
+                                            indexType = z;
+                                    }
+                                    if(indexType != -1)
+                                    {
+                                        regExpTest.replace("##" + tempType + "##", words.at(indexType));
+                                        QMessageBox::information(0, "de", tempType);
+                                        params += "--" + words.at(indexType) + "--";
+                                    }
+                                }
+
                                 if(phrases.at(k).toLower().indexOf(QRegExp(regExpTest)) != - 1)
                                 {
                                     regExpTrouve = true;
                                     funcToExecute = temp.readLine().trimmed();
                                 }
-                                else
+                                else {
                                     temp.readLine();
+                                }
                             }
                         }
                     }
@@ -436,4 +464,29 @@ void Semantik::addNewFunc()
 {
     AddFunc *addFunc = new AddFunc;
     addFunc->exec();
+}
+
+/**
+ * @brief Semantik::resetPath, reset BDDS/Agenda from classicPaths
+ */
+void Semantik::resetPathAg()
+{
+    QStringList finish;
+    for(int i = 0; i < classicPaths.count(); ++i)
+    {
+        if(classicPaths.at(i).indexOf("BDDS/Agenda") != 0)
+            finish.append(classicPaths.at(i));
+    }
+    classicPaths = finish;
+    QDir *t = new QDir;
+    t->remove("BDDS/Agenda");
+
+    QFile temp("function/ouiGen.rorif");
+    temp.remove();
+    QFile temp2("function/ouiGen.py");
+    temp2.remove();
+    QFile temp3("function/nogen.rorif");
+    temp3.remove();
+    QFile temp4("function/nogen.py");
+    temp4.remove();
 }

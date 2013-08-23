@@ -1,0 +1,21 @@
+ #!/usr/bin/python
+ # -*- coding: latin-1 -*-
+import random, subprocess
+import sys
+
+mon_fichier = open("end", "w")
+
+r = random.randint(1,2) 
+toWrite = ""
+if r == 1 :
+	subprocess.call("python sendToAndroid.py Say : Et non... contrairement à vous, je ne meurs pas. Je ne souffre pas. Je ne pleure pas. Je suis un programme.", shell=True)
+elif r == 2 :
+	subprocess.call("python sendToAndroid.py Say : Non, je ne vais pas mourrir à proprement parler, je serais effacée.", shell=True)
+
+toWrite += "\n-R_M- : -10"
+toWrite += "\n-U_C- : -10"
+toWrite += "\n-U_BU- : -10"
+
+mon_fichier.write(toWrite)
+
+mon_fichier.close()

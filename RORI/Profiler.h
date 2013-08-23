@@ -15,6 +15,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <time.h>
+#include <QApplication>
 
 #include "enumeration.h"
 #include "RoriProfil.h"
@@ -36,17 +37,19 @@ public:
 public slots:
     bool condAccept(QStringList conds);
     void workData(QString message);
-    void doAnAction(QString question,QString message, bool delAfter);
+    void doAnAction();
 
-    //inline Agenda* getAgenda() { return agenda; }
+    inline Agenda* getAgenda() { return agenda; }
 
     inline void setSaluerTrue() { saluer = true;}
 
     void lireEnd();
+    void stopRolling();
 
 signals:
     void endOfTreatment(QString message);
     void newPath(QString newPath);
+    void resetPathAgenda();
     void delPro(QString path);
     void newWord(QString newWord);
     void newFunc();
@@ -56,15 +59,18 @@ private:
     //Profiler
     RoriProfil *roriProfil;
     UserProfil *userProfil;
-    //Agenda *agenda;
+    Agenda *agenda;
 
     //Exec command
     QList<QProcess *> listeProgramms;
     QStringList condToMakeFunction;
     QString scriptPython;
     QString endFile;
-    QStringList params;    
+    QStringList params;
+
     QTimer *timer;
+    QTimer *timerMakeAction;
+    bool m_rolling;
 };
 
 #endif // PROFILER_H

@@ -49,6 +49,7 @@ public slots:
     void addWordSlot(QString nom, QString def, QString syn, QString cat);
     void addNewWord(QString newWord);
     void addNewFunc();
+    void resetPathAg();
 
 signals:
     void saySomething(QString message);

@@ -1,17 +1,26 @@
 #include "Profiler.h"
+#include <math.h>
+#include <QDir>
 
 Profiler::Profiler()
 {
     roriProfil = new RoriProfil();
     userProfil = new UserProfil();
     saluer = false;
-    //agenda = new Agenda();
+    agenda = new Agenda();
 
     timer = new QTimer();
     connect(timer, SIGNAL(timeout()), this, SLOT(lireEnd()));
     timer->start(100);
 
-    //connect(agenda, SIGNAL(doAnAction(QString,QString, bool)), this, SLOT(doAnAction(QString,QString, bool)));
+    timerMakeAction = new QTimer();
+    int profil = roriProfil->getRoriHumor() + roriProfil->getRoriIsABadIA() + roriProfil->getRoriPolite() + roriProfil->getRoriMoral();
+    profil += userProfil->getUCurious() + userProfil->getUHumor() + userProfil->getUIsABadUser() + userProfil->getUMoral();
+    profil += userProfil->getUPolite() + userProfil->getUPolite();
+    int somme = abs(profil - 500) < profil ? abs(profil - 500)*1000 : profil*1000;
+    int form = 900000 + somme * ((rand()%3)+1);
+    connect(timerMakeAction, SIGNAL(timeout()), this, SLOT(doAnAction()));
+    timerMakeAction->start(form);
 }
 
 //Work with the message (parse the message, see the doc)
@@ -202,16 +211,132 @@ bool Profiler::condAccept(QStringList conds)
         return true;
 }
 
-void Profiler::doAnAction(QString question, QString message, bool delAfter)
+/**
+ * @brief Profiler::doAnAction recalc the timer and give an action from the Agenda
+ */
+void Profiler::doAnAction()
 {
-    int rep = QMessageBox::question(0, "RORI v2", question, QMessageBox::Yes , QMessageBox::No);
-    if(rep == QMessageBox::Yes)
+    timerMakeAction->stop();
+
+    //Get an action and ask the user
+    QStringList action;
+    action = agenda->getAnAction();
+
+    //Make files
+    emit newPath("BDDS/Agenda/");
+    QDir *t = new QDir();
+    t->mkdir("BDDS/Agenda");
+    QFile *path = new QFile("BDDS/Agenda/pathFunction");
+    if(path->exists())
+        path->remove();
+    path->open(QIODevice::WriteOnly);
+    if(path->isOpen())
+        path->write("gen.f");
+
+    path->close();
+
+    QFile *genFunction = new QFile("BDDS/Agenda/gen.f");
+    if(genFunction->exists())
+        genFunction->remove();
+    genFunction->open(QIODevice::WriteOnly);
+    if(genFunction->isOpen())
     {
-        //agenda->delAnAction(question, message);
-        execFunction(message + ".rorif");
+        genFunction->write("^(ok|d.ac(cord)|fai..le|ou(a|)i(p|)|ye(s|p))$\n");
+        genFunction->write("ouigen\n");
+        genFunction->write("^(no(n|pe|)|plus.tar.)$\n");
+        genFunction->write("nogen\n");
     }
+    genFunction->close();
+
+    QString programme, parametres;
+    int p = 0;
+    while(p < action.at(2).length() && action.at(2)[p] != ' ')
+    {
+        programme += action.at(2)[p];
+        ++p;
+    }
+    ++p;
+    while(p < action.at(2).length())
+    {
+        parametres += action.at(2)[p];
+        ++p;
+    }
+    QFile *ouiGen = new QFile("function/ouigen.rorif");
+    if(ouiGen->exists())
+        ouiGen->remove();
+    ouiGen->open(QIODevice::WriteOnly);
+    if(ouiGen->isOpen())
+    {
+        ouiGen->write("R_BH U_NI\npython function/ouigen.py ");
+    }
+    ouiGen->close();
+
+    QFile *noGen = new QFile("function/nogen.rorif");
+    if(noGen->exists())
+        noGen->remove();
+    noGen->open(QIODevice::WriteOnly);
+    if(noGen->isOpen())
+    {
+        noGen->write("R_BH U_NI\npython function/nogen.py ");
+    }
+    noGen->close();
+
+    QString enleverFunc = "";
+    if(action.at(0)[10] == '0')
+        enleverFunc = "ENLA-|-" + action.at(0) + "-|-" + action.at(1) + "-|-"+ action.at(2);
+
+    QFile *ouiGenP = new QFile("function/ouigen.py");
+    if(ouiGenP->exists())
+        ouiGenP->remove();
+    ouiGenP->open(QIODevice::WriteOnly);
+    if(ouiGenP->isOpen())
+    {
+        QString file = " #!/usr/bin/python\n# -*- coding: latin-1 -*-\nimport sys\nimport subprocess\nmon_fichier = open(\"end\", \"w\")\ntoWrite = \"ResNFA\\n\"\ntoWrite += \""+enleverFunc+"\\n\"\ntoWrite += \"\\n-R_M- : -10\"\ntoWrite += \"\\n-R_J- : -10\"\ntoWrite += \"\\n-U_C- : -10\"\ntoWrite += \"\\n-U_BU- : -10\"\nmon_fichier.write(toWrite)\n\nmon_fichier.close()\nsubprocess.call(\"python function/" + action.at(2) +"\", shell = True)";
+        QTextStream out(ouiGenP);
+        out << file;
+    }
+    ouiGenP->close();
+
+    QFile *noGenP = new QFile("function/nogen.py");
+    if(noGenP->exists())
+        noGenP->remove();
+    noGenP->open(QIODevice::WriteOnly);
+    if(noGenP->isOpen())
+    {
+        noGenP->write(" #!/usr/bin/python\n\
+              # -*- coding: latin-1 -*-\n\
+             import sys\n\
+             mon_fichier = open(\"end\", \"w\")\n\
+             \n\
+             toWrite = \"ResNFA\"\n\
+             \n\
+             toWrite += \"\\n-R_M- : -10\"\n\
+             toWrite += \"\\n-R_J- : -10\"\n\
+             toWrite += \"\\n-U_C- : -10\"\n\
+             toWrite += \"\\n-U_BU- : -10\"\n\
+             mon_fichier.write(toWrite)\n\
+             \n\
+             mon_fichier.close()");
+    }
+    noGenP->close();
+
+    if(action.count() == 3)
+    {
+        emit endOfTreatment("RORISAY:" + action.at(1));
+    }
+
+    //Recalc the timer
+    int profil = roriProfil->getRoriHumor() + roriProfil->getRoriIsABadIA() + roriProfil->getRoriPolite() + roriProfil->getRoriMoral();
+    profil += userProfil->getUCurious() + userProfil->getUHumor() + userProfil->getUIsABadUser() + userProfil->getUMoral();
+    profil += userProfil->getUPolite() + userProfil->getUPolite();
+    int somme = abs(profil - 500) < profil ? abs(profil - 500)*1000 : profil*1000;
+    int form = 900000 + somme * ((rand()%3)+1);
+    timerMakeAction->start(form);
 }
 
+/**
+ * @brief Profiler::lireEnd, every second this function read a file called 'end' for control the profiler and RORI
+ */
 void Profiler::lireEnd()
 {
     QString reader = "end";
@@ -234,7 +359,43 @@ void Profiler::lireEnd()
                         ++i;
                     }
 
-                    toSay.replace("-UNAME-", userProfil->getPrenom());
+                    toSay.replace("-UNAME-", userProfil->getNom());
+                    toSay.replace("-UPNAME-", userProfil->getPrenom());
+                    if(!toSay.isEmpty())
+                    {
+                        saluer = true;
+                        QFile history("history");
+                        if(!history.exists())
+                        {
+                            history.open(QIODevice::ReadWrite);
+                            history.close();
+                        }
+                        QTextStream out(&history);
+                        history.open(QIODevice::Append);
+                        out << "\nRORI : " + toSay;
+                        emit endOfTreatment("RORISAY:" + toSay);
+                    }
+                }
+                if(reader.indexOf("LongSay") == 0)
+                {
+                    int i = 10;
+                    QString toSay;
+                    while(i < reader.length())
+                    {
+                        toSay += reader[i];
+                        ++i;
+                    }
+                    QString line;
+                    while(line.indexOf("LongSay") != 0)
+                    {
+                        line = endFile.readLine();
+                        if(line.indexOf("LongSay") != 0)
+                            toSay += line;
+                        ++i;
+                    }
+
+                    toSay.replace("-UNAME-", userProfil->getNom());
+                    toSay.replace("-UPNAME-", userProfil->getPrenom());
                     if(!toSay.isEmpty())
                     {
                         saluer = true;
@@ -264,6 +425,10 @@ void Profiler::lireEnd()
                 if(reader.indexOf("ADF") == 0)
                 {
                     emit newFunc();
+                }
+                if(reader.indexOf("ResNFA") == 0)
+                {
+                    emit resetPathAgenda();
                 }
                 if(reader.indexOf("Setnf") == 0)
                 {
@@ -467,10 +632,62 @@ void Profiler::lireEnd()
                     }
                     userProfil->setAge(newValue.toInt());
                 }
+                if(reader.indexOf("ENLA") == 0)
+                {
+                    int i = 7;
+                    QString fileName, phrase, action;
+                    while(i < reader.length() && (reader.at(i) != '-' || reader.at(i+1) != '|' || reader.at(i+2) != '-'))
+                    {
+                        fileName += reader.at(i);
+                        ++i;
+                    }
+                    i+=3;
+                    while(i < reader.length() && (reader.at(i) != '-' || reader.at(i+1) != '|' || reader.at(i+2) != '-'))
+                    {
+                        phrase += reader.at(i);
+                        ++i;
+                    }
+                    i+=3;
+                    while(i < reader.length())
+                    {
+                        action += reader.at(i);
+                        ++i;
+                    }
+
+                    QString newFile;
+                    QFile *toChange = new QFile("Agenda/" + fileName);
+                    toChange->open(QIODevice::ReadWrite);
+                    while(!toChange->atEnd())
+                    {
+                        QString ligne = toChange->readLine();
+                        QString ligne2 = toChange->readLine();
+                        if(ligne.trimmed() == phrase && ligne2.trimmed() == action)
+                        {
+
+                        }
+                        else
+                            newFile += ligne + ligne2;
+                    }
+                    toChange->close();
+                    toChange->remove();
+                    toChange->open(QIODevice::ReadWrite);
+                    if(toChange->isOpen())
+                    {
+                        QTextStream out(toChange);
+                        //newFile.truncate(newFile.length() - 1);
+                        out << newFile;
+                    }
+
+                }
             }
             endFile.remove();
         }
         else
             QMessageBox::critical(0, "Error", "Can't open this file " + reader);
     }
+}
+
+void Profiler::stopRolling()
+{
+    m_rolling = false;
 }
